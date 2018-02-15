@@ -1,0 +1,61 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+
+     box-sizing: border-box; /* IE */
+
+     font-family: 'Baloo Tammudu', cursive;
+
+     color:   #581845;
+
+}
+
+h1{
+  font-size: 3em;
+}
+
+html{
+  background-color: #85144b;
+}
+
+#mainWrapper{
+  border: 10px solid #c2b180;
+  border-radius: 50% 20% / 10% 40%;
+  margin-left: 13%;
+  margin-top: 50px;
+  width: 75%;
+  text-align: center;
+  height: 525px;
+  background-color: #C70039;
+}
+
+#result{
+  font-size: 3em;
+}
+
+input{
+  background-color: #660066;
+  color: #c2b180;
+  border: 1px solid #c2b180;
+}
+
+button {
+  background: #c2b180;
+  background-image: -webkit-linear-gradient(top, #c2b180, #581845);
+  background-image: -moz-linear-gradient(top, #c2b180, #581845);
+  background-image: -ms-linear-gradient(top, #c2b180, #581845);
+  background-image: -o-linear-gradient(top, #c2b180, #581845);
+  background-image: linear-gradient(to bottom, #c2b180, #581845);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Arial;
+  color:  #581845;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #c2b180 2px;
+  text-decoration: none;
+  outline: 0;
+  margin-top: 10px;
+}
